@@ -1,6 +1,6 @@
 {
   "name": "gixb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Package you use to browse web in your app",
   "main": "gixb.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
   "bin": {
-  	"gixb":"bin/browse.js"
+    "gixb": "bin/browse.js"
   },
   "repository": {
     "type": "git",
