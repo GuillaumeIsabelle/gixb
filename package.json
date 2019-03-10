@@ -1,11 +1,14 @@
 {
   "name": "gixb",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "A Package you use to browse web in your app",
   "main": "gixb.js",
   "scripts": {
     "test": "node gixb.js \"http://google.ca\" && echo 1",
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "bin": {
+    "gixb": "bin/browse.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/GuillaumeIsabelle/gixb#readme",
   "dependencies": {
-    "opn": "^5.4.0"
+    "opn": "^5.4.0",
+    "shelljs": "^0.8.3"
   }
 }
