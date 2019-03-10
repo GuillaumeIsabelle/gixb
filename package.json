@@ -1,6 +1,6 @@
 {
   "name": "gixb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Package you use to browse web in your app",
   "main": "gixb.js",
   "scripts": {
