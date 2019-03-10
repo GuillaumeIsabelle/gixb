@@ -8,19 +8,19 @@
  */
 
 
-var shell = require("shelljs");
+//argument 1 is the site URL
 var args = process.argv.slice(2);
 
-var f = args[0];
+var url = args[0];
 
 
 const opn = require('opn');
 
 
-//Opening
-opn(f ).then(() => {
+//Opening url
+opn(url ).then(() => {
 //output after opening
-  console.log("GIX Browing Openning: " + f);
+  console.log("GIX Browing Openning: " + url);
 });
 
 
