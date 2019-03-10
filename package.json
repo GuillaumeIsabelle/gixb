@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/GuillaumeIsabelle/gixb#readme",
   "dependencies": {
-    "opn": "^5.4.0",
-    "shelljs": "^0.8.3"
+    "opn": "^5.4.0"
+
   }
 }
