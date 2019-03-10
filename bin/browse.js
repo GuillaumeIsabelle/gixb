@@ -4,5 +4,5 @@ var args = process.argv.slice(2);
 
 var f = args[0];
 
-shell.exec(`node ../gixb.js "${f}"`);
+shell.exec(`node ../gixb/gixb.js "${f}"`);
 
