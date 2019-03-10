@@ -1,6 +1,6 @@
 {
   "name": "gixb",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A Package you use to browse web in your app",
   "main": "gixb.js",
   "scripts": {
@@ -29,6 +29,5 @@
   "homepage": "https://github.com/GuillaumeIsabelle/gixb#readme",
   "dependencies": {
     "opn": "^5.4.0"
-
   }
 }
