@@ -5,7 +5,10 @@
   "main": "gixb.js",
   "scripts": {
     "test": "node gixb.js \"http://google.ca\" && echo 1",
-    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "test:browse:google":"gixb http://google.com",
+    "b:github:repo":"https://github.com/GuillaumeIsabelle/gixb",
+    "b:npmjs:gixb":"https://www.npmjs.com/package/gixb"
   },
   "bin": {
     "gixb": "gixb.js"
