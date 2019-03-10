@@ -1,0 +1,23 @@
+{
+  "name": "gixb",
+  "version": "0.0.1",
+  "description": "A Package you use to browse web in your app",
+  "main": "gixb.js",
+  "scripts": {
+    "test": "node gixb.js \"http://google.ca\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeIsabelle/gixb.git"
+  },
+  "keywords": [
+    "gix",
+    "browser"
+  ],
+  "author": "Guillaume ISabelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeIsabelle/gixb/issues"
+  },
+  "homepage": "https://github.com/GuillaumeIsabelle/gixb#readme"
+}
