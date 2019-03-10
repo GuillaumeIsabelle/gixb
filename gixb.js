@@ -13,7 +13,7 @@ const opn = require('opn');
 
 opn(f ).then(() => {
   // image viewer closed
-  console.log("GIX Browing Openning: " + f);
+  console.log("GIX Browsing : " + f);
 });
 
 
